@@ -1,3 +1,22 @@
+/*
+1️⃣ Find Maximum Element in Array
+Pattern Used:
+
+Basic Traversal
+
+When to Use:
+
+When you need the largest/smallest value.
+
+Brute Force:
+
+Sort the array → return last element
+Time: O(n log n)
+
+Optimized:
+
+Single traversal, keep track of max
+*/
 class ArrayDemo1{
     static int max(int arr[]){
         int max = arr[0];
@@ -13,4 +32,5 @@ class ArrayDemo1{
         int max1 = max(arr);
         System.out.println("Max ele : "+max1);
     }
+
 }
