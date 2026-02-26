@@ -1,3 +1,19 @@
+/*
+6️⃣ Find Second Largest Element
+Pattern:
+Observation + Tracking Two Variables
+Brute:
+Sort → O(n log n)
+
+Optimized:
+Track max and secondMax
+Time: O(n)
+Space: O(1)
+
+Edge:
+All elements equal
+Array size < 2
+*/
 class ArrayDemo6{
     static void large(int arr[]){
         int first = Integer.MIN_VALUE;
@@ -11,9 +27,7 @@ class ArrayDemo6{
             }
         }
         System.out.println("First large : "+first);
-        System.out.println("Second large : "+second);
-        
-       
+        System.out.println("Second large : "+second);  
     }
     public static void main(String[] args){
         int arr[] = new int[]{12,15,8,9,4,98};
