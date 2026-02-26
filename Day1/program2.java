@@ -1,3 +1,22 @@
+/*
+2️⃣ Find Manimum Element in Array
+Pattern Used:
+
+Basic Traversal
+
+When to Use:
+
+When you need the largest/smallest value.
+
+Brute Force:
+
+Sort the array → return last element
+Time: O(n log n)
+
+Optimized:
+
+Single traversal, keep track of max
+*/
 class ArrayDemo2{
     static int min(int arr[]){
         int min = arr[0];
@@ -13,4 +32,5 @@ class ArrayDemo2{
         int min1 = min(arr);
         System.out.println("Min ele : "+min1);
     }
+
 }
