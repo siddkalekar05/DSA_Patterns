@@ -1,3 +1,11 @@
+/*
+5️⃣ Count Even and Odd Numbers
+Pattern:
+Traversal + Counter Observation
+Time: O(n)
+Space: O(1)
+*/
+
 class ArrayDemo5{
     static void count(int arr[]){
         int even=0;
@@ -17,4 +25,5 @@ class ArrayDemo5{
         int arr[] = new int[]{12,15,8,9,4,98};
        count(arr);
     }
+
 }
