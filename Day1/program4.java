@@ -1,3 +1,18 @@
+/*
+4️⃣ Reverse an Array
+Pattern:
+
+Two-pointer traversal
+
+Brute:
+
+Create new array (O(n) space)
+
+Optimized:
+
+Swap start & end
+Time: O(n)
+*/
 class ArrayDemo4{
     static void sort2(int arr[]){
         int start = 0;
@@ -25,3 +40,4 @@ class ArrayDemo4{
         System.out.println();
     }
 }
+
