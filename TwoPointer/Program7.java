@@ -1,3 +1,22 @@
+/*
+Problem Statement:
+------------------
+Given two sorted arrays, merge them into a single sorted sequence.
+
+Pattern Used:
+-------------
+Two Pointer (Parallel Traversal)
+
+Approach:
+---------
+Use two pointers to compare elements from both arrays.
+Print smaller element and move that pointer.
+After one finishes, print remaining elements.
+
+Time Complexity:
+----------------
+O(n + m)
+*/
 class TwoPointerDemo7 {
 
     static void merge(int arr1[], int arr2[]) {
@@ -36,4 +55,5 @@ class TwoPointerDemo7 {
 
         merge(arr1, arr2);
     }
+
 }
