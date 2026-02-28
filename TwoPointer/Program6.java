@@ -1,3 +1,20 @@
+
+
+/*
+Problem Statement:
+------------------
+Given two sorted arrays, Print them sequentially .
+
+Pattern Used:
+-------------
+Two Pointer (Parallel Traversal)
+
+Time Complexity:
+----------------
+O(n + m)
+
+
+*/
 class TwoPointerDemo6{
     static void merge(int arr1[],int arr2[]){
         int i = 0, j = 0;
@@ -27,4 +44,5 @@ class TwoPointerDemo6{
         merge(arr1,arr2);
         
     }
+
 }
