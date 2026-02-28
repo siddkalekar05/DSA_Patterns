@@ -1,3 +1,25 @@
+/*
+Problem Statement:
+------------------
+Given a sorted array, remove duplicates in-place and return
+the length of unique elements.
+
+Pattern Used:
+
+Two Pointer (Slow-Fast Pointer on Sorted Array)
+
+Approach:
+
+Slow pointer tracks last unique element.
+Fast pointer scans for new distinct elements.
+When found, update slow position.
+
+Time Complexity:
+
+O(n)
+*/
+
+
 class TwoPointerDemo5{
     static void  unique(int arr[]){
         int j = 0;
@@ -21,4 +43,5 @@ class TwoPointerDemo5{
         System.out.println();
         unique(arr);
     }
+
 }
