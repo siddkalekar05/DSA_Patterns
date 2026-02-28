@@ -1,5 +1,24 @@
+/*
+Problem Statement:
+
+Check whether the given array is a palindrome.
+An array is palindrome if it reads the same forward and backward.
+
+Pattern Used:
+
+Two Pointer (Left-Right comparison)
+
+Approach:
+
+Compare elements from both ends.
+If mismatch found, return false.
+If loop completes, return true.
+
+Time Complexity:
+O(n)
+*/
 class TwoPointerDemo2{
-    static void  sort(int arr[]){
+    static void  pall(int arr[]){
         int start = 0;
         int end = arr.length-1;
         boolean flag = true;
@@ -19,6 +38,7 @@ class TwoPointerDemo2{
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-        sort(arr);
+        pall(arr);
     }
+
 }
