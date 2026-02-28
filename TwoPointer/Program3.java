@@ -1,3 +1,13 @@
+/*
+Problem Statement:
+------------------
+Move all zeroes to the end of the array while maintaining
+relative order of non-zero elements.
+
+Pattern Used:
+-------------
+Two Pointer (Slow-Fast Pointer)
+*/
 class TwoPointerDemo3{
     static void  move(int arr[]){
         int j = 0;
@@ -20,4 +30,5 @@ class TwoPointerDemo3{
         System.out.println();
         move(arr);
     }
+
 }
