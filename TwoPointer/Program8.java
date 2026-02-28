@@ -1,3 +1,23 @@
+/*
+Problem Statement:
+
+Given a sorted array and a target value,
+determine if there exists a pair whose sum equals the target.
+print that pairs.
+
+Pattern Used:
+
+Two Pointer (Inward movement on sorted array)
+
+Approach:
+Use left and right pointers.
+Adjust pointers based on comparison with target.
+
+Time Complexity:
+
+O(n)
+
+*/
 class TwoPointerDemo7 {
 
     public static void sum(int arr[]) {
@@ -29,4 +49,5 @@ class TwoPointerDemo7 {
         int arr[] = {1, 4, 7, 9, 12, 13};
         sum(arr);
     }
+
 }
