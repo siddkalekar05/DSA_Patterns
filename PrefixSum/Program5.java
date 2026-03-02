@@ -1,14 +1,8 @@
 /*
 Problem Statement:
-------------------
 Find index where left sum equals right sum.
 
-Pattern Used:
--------------
-Prefix Sum
-
 Approach:
----------
 Compute total sum.
 Maintain leftSum.
 RightSum = total - leftSum - arr[i].
@@ -16,8 +10,6 @@ RightSum = total - leftSum - arr[i].
 Time Complexity: O(n)
 Space Complexity: O(1)
 */
-
-
 
 import java.util.*;
 class PrefixDemo5 {
@@ -42,5 +34,6 @@ class PrefixDemo5 {
     }
     
 }
+
 
 
