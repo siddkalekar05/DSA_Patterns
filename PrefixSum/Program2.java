@@ -1,30 +1,16 @@
 /*
 Problem Statement:
-------------------
 Given prefix array and indices L, R,
 return sum from L to R.
 
-Pattern Used:
--------------
-Prefix Sum
-
 Approach:
----------
 Use formula:
 If L == 0 → prefix[R]
 Else → prefix[R] - prefix[L-1]
 
 Time Complexity: O(1)
-Space Complexity: O(1)
-*/
 
-public class RangeSum {
-    public static int query(int[] prefix, int L, int R) {
-        if(L == 0)
-            return prefix[R];
-        return prefix[R] - prefix[L - 1];
-    }
-}
+*/
 
 import java.util.*;
 
@@ -60,3 +46,4 @@ class PrefixDemo2 {
     }
 
 }
+
