@@ -1,3 +1,41 @@
+/*
+Problem Statement:
+------------------
+Find index where left sum equals right sum.
+
+Pattern Used:
+-------------
+Prefix Sum
+
+Approach:
+---------
+Compute total sum.
+Maintain leftSum.
+RightSum = total - leftSum - arr[i].
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+public class PivotIndex {
+    public static int pivot(int[] arr) {
+        int total = 0;
+        for(int num : arr)
+            total += num;
+
+        int leftSum = 0;
+
+        for(int i = 0; i < arr.length; i++) {
+            if(leftSum == total - leftSum - arr[i])
+                return i;
+
+            leftSum += arr[i];
+        }
+
+        return -1;
+    }
+}
+
 import java.util.*;
 class PrefixDemo5 {
     static boolean prefix(int arr[],Scanner sc){
@@ -21,3 +59,4 @@ class PrefixDemo5 {
     }
     
 }
+
