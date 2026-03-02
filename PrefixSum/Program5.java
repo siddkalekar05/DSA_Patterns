@@ -1,13 +1,13 @@
+
 /*
 Problem Statement:
-Find index where left sum equals right sum.
+Count number of subarrays with sum equal to target.
 
 Approach:
-Compute total sum.
-Maintain leftSum.
-RightSum = total - leftSum - arr[i].
+Generate all subarrays.
+Count matching sums.
 
-Time Complexity: O(n)
+Time Complexity: O(n²)
 Space Complexity: O(1)
 */
 
@@ -34,6 +34,7 @@ class PrefixDemo5 {
     }
     
 }
+
 
 
 
