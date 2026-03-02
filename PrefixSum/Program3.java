@@ -1,3 +1,30 @@
+/*
+Problem Statement:
+------------------
+Find total sum of array elements.
+
+Pattern Used:
+-------------
+Running Sum (Prefix Base)
+
+Approach:
+---------
+Traverse array and accumulate sum.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
+public class TotalSum {
+    public static int sum(int[] arr) {
+        int total = 0;
+        for(int num : arr) {
+            total += num;
+        }
+        return total;
+    }
+}
+
 class PrefixDemo3 {
     static void prefix(int arr[]){
         for(int i=1;i<arr.length;i++){
@@ -13,3 +40,4 @@ class PrefixDemo3 {
     }
     
 }
+
