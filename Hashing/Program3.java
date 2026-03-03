@@ -1,3 +1,29 @@
+/*
+Problem Statement:
+Given an array of integers and a target value,
+return the indices of two numbers such that 
+their sum equals the target.
+
+If no such pair exists, return [-1, -1].
+
+Approach:
+Use a HashMap to store:
+- Key = number
+- Value = index of that number
+
+Traverse the array:
+For each element:
+    - Compute complement = target - current element
+    - Check if complement exists in map
+        → If yes, return stored index and current index
+    - Else, store current element and its index in map
+
+This avoids using nested loops.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class HashingDemo3 {
@@ -21,4 +47,5 @@ class HashingDemo3 {
         int[] result = twoSum(nums, target);
         System.out.println(result[0] + " " + result[1]);
     }
+
 }
