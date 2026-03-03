@@ -1,3 +1,20 @@
+/*
+Problem Statement:
+Given a string, find how many times a specific 
+character appears in the string.
+
+Approach:
+Take a target character as input from the user.
+Initialize count = 0.
+Traverse the string character by character.
+If the current character matches the target,
+increase the count.
+Print the total occurrences at the end.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class ArrayDemo9 {
     static void frequency(String str, Scanner sc){
@@ -19,4 +36,5 @@ class ArrayDemo9 {
         String str = "programming";
         frequency(str,sc);
     }
+
 }
