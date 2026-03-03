@@ -1,3 +1,23 @@
+/*
+Problem Statement:
+Given an array of integers, count the frequency of each element 
+and print how many times each number appears.
+
+Approach:
+Use a HashMap where:
+- Key = array element
+- Value = frequency count
+
+Traverse the array once.
+For each element:
+    - If it already exists in map → increase count
+    - If not → insert with count = 1
+Use getOrDefault() to simplify the logic.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 class HashingDemo1 {
     static void hashing(int arr[]){
@@ -13,3 +33,4 @@ class HashingDemo1 {
     }
     
 }
+
