@@ -14,6 +14,7 @@ Print the total vowel count at the end.
 Time Complexity: O(n)
 Space Complexity: O(1)
 */
+
 class ArrayDemo8 {
     static void vowel(String str){
         int count = 0;
@@ -38,4 +39,5 @@ class ArrayDemo8 {
     }
     
 }
+
 
