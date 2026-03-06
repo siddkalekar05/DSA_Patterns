@@ -1,3 +1,12 @@
+/*
+Problem Statement:
+Reverse order of words.
+
+Input: "Java is fun"
+Output: "fun is Java"
+*/
+
+
 class ReverseWords {
 
     public static void main(String[] args){
@@ -11,4 +20,5 @@ class ReverseWords {
             System.out.print(words[i]+" ");
         }
     }
+
 }
