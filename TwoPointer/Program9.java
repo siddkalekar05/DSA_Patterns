@@ -1,3 +1,18 @@
+/*
+Problem Statement:
+Check if a number is palindrome.
+
+Example:
+Input: 121
+Output: Palindrome
+
+Approach:
+Reverse the number and compare with original.
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class PalindromeNumber {
 
@@ -27,4 +42,5 @@ class PalindromeNumber {
         int num = sc.nextInt();
         check1(num);
     }
+
 }
