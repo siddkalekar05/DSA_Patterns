@@ -1,3 +1,19 @@
+/*
+Problem Statement:
+Reverse a given string.
+
+Example:
+Input: hello
+Output: olleh
+
+Approach:
+Convert string to char array.
+Use two pointers to swap characters.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class TwoPointerDemo7{
     static String reveString(char arr[]){
@@ -22,4 +38,5 @@ class TwoPointerDemo7{
         String str2 = reveString(arr);
         System.out.println("Reverse string : "+str2);
     }
+
 }
