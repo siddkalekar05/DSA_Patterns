@@ -1,3 +1,20 @@
+/*
+Problem Statement:
+Check if two strings are equal ignoring spaces.
+
+Example:
+"hello world"
+"helloworld"
+
+Output: Equal
+
+Approach:
+Remove spaces and compare strings.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 class CompareStrings {
 
     static void compare(String s1,String s2){
@@ -17,4 +34,5 @@ class CompareStrings {
     }
 } 
     
+
 
