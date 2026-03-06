@@ -1,3 +1,18 @@
+/*
+Problem Statement:
+Check whether a string is palindrome.
+
+Example:
+Input: madam
+Output: Palindrome
+
+Approach:
+Compare characters from start and end.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class PalindromeString {
 
@@ -31,4 +46,5 @@ class PalindromeString {
         String str = sc.nextLine();
         check(str);
     }
+
 }
