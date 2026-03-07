@@ -1,3 +1,11 @@
+/*
+Problem Statement:
+Count vowels in every substring of size K.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class VowelSubstring {
 
@@ -34,4 +42,5 @@ class VowelSubstring {
         String str = sc.nextLine();
         countVowels(str,3);
     }
+
 }
