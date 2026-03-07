@@ -1,3 +1,11 @@
+/*
+Problem Statement:
+Count total subarrays of size K.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SlidingWindow4 {
     static void count(int arr[],int k){
@@ -12,3 +20,4 @@ class SlidingWindow4 {
         count(arr,k);
     }  
 }
+
