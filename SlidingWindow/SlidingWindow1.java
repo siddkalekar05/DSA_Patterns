@@ -1,3 +1,21 @@
+/*
+Problem Statement:
+Find maximum sum of subarray of size K.
+
+Example:
+Input: {2,1,5,1,3,2}
+K = 3
+Output: 9  (subarray {5,1,3})
+
+Approach:
+Use sliding window of size K.
+Calculate first window sum.
+Slide window by removing first element and adding next.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SlidingWindow1{
     static void window(int arr[],int k){
@@ -21,4 +39,5 @@ class SlidingWindow1{
         int k = sc.nextInt();
         window(arr,k);
     }
+
 }
