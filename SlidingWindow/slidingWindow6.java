@@ -1,3 +1,11 @@
+/*
+Problem Statement:
+Find first negative number in every window of size K.
+
+Time Complexity: O(n*k)
+Space Complexity: O(1)
+*/
+
 class FirstNegative {
 
     static void firstNeg(int arr[], int k){
@@ -18,4 +26,5 @@ class FirstNegative {
         int arr[] = {12,-1,-7,8,-15,30,16,28};
         firstNeg(arr,3);
     }
+
 }
