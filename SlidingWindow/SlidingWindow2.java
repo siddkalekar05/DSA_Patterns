@@ -1,3 +1,11 @@
+/*
+Problem Statement:
+Find minimum sum subarray of size K.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SlidingWindow2{
     static void window(int arr[],int k){
@@ -21,4 +29,5 @@ class SlidingWindow2{
         int k = sc.nextInt();
         window(arr,k);
     }
+
 }
