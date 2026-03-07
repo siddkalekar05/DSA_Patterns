@@ -1,3 +1,14 @@
+/*
+Problem Statement:
+Find average of every subarray of size K.
+
+Example:
+Input: {1,3,2,6,-1,4,1,8,2}
+K=5
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
 
 import java.util.*;
 class SlidingWindow3{
@@ -22,3 +33,4 @@ class SlidingWindow3{
         window(arr,k);
     }
 }
+
