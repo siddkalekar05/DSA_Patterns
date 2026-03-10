@@ -1,3 +1,24 @@
+/*
+Problem Statement:
+Count frequency of each element in array.
+
+Example:
+Input: [1,2,2,3,3,3]
+
+Output:
+1 -> 1
+2 -> 2
+3 -> 3
+
+Approach:
+Use HashMap
+Store element as key
+Increase count when element repeats
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class FrequencyCount {
@@ -23,4 +44,5 @@ class FrequencyCount {
 
         count(arr);
     }
+
 }
