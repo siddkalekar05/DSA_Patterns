@@ -1,3 +1,17 @@
+/*
+Problem Statement:
+Find missing number from array 1..n
+
+Example:
+Input: [1,2,4,5]
+
+Output: 3
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+
 import java.util.*;
 
 class MissingNumber {
@@ -25,4 +39,5 @@ class MissingNumber {
 
         find(arr,5);
     }
+
 }
