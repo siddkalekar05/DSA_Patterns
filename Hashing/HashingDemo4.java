@@ -1,3 +1,12 @@
+/*
+Problem Statement:
+Return true if array contains duplicate values.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+
 import java.util.*;
 
 class ContainsDuplicate {
@@ -23,4 +32,5 @@ class ContainsDuplicate {
 
         System.out.println(check(arr));
     }
+
 }
