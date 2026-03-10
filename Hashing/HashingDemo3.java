@@ -1,26 +1,43 @@
+/*
+Problem Statement:
+Find duplicate numbers in an array.
+
+Example:
+Input: [1,2,3,2,4,3]
+
+Output:
+2 3
+
+Approach:
+Use HashSet
+If element already exists → duplicate
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
-class FirstUnique {
+class FindDuplicates {
 
-    static void unique(String str){
+    static void duplicates(int arr[]){
 
-        HashMap<Character,Integer> map = new HashMap<>();
+        HashSet<Integer> set = new HashSet<>();
 
-        for(char c : str.toCharArray())
-            map.put(c, map.getOrDefault(c,0)+1);
+        for(int num : arr){
 
-        for(char c : str.toCharArray()){
+            if(set.contains(num))
+                System.out.print(num + " ");
 
-            if(map.get(c)==1){
-
-                System.out.println("First Unique: "+c);
-                return;
-            }
+            else
+                set.add(num);
         }
     }
 
     public static void main(String[] args){
 
-        unique("swiss");
+        int arr[] = {1,2,3,2,4,3};
+
+        duplicates(arr);
     }
 }
