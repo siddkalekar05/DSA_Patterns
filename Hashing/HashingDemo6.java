@@ -1,3 +1,19 @@
+/*
+Problem Statement:
+Find element occurring odd number of times.
+
+Example:
+Input: [1,2,3,2,3,1,3]
+
+Output: 3
+
+Approach:
+Use HashMap frequency
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class OddOccurrence {
@@ -23,3 +39,4 @@ class OddOccurrence {
         find(arr);
     }
 } 
+
