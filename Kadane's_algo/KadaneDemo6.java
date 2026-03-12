@@ -1,3 +1,22 @@
+/*
+Problem Statement:
+Find maximum subarray sum and also return the start and end indices.
+
+Example:
+Input: [-2,1,-3,4,-1,2,1,-5,4]
+
+Output:
+Max Sum = 6
+Subarray Index = 3 to 6
+
+Approach:
+Use Kadane's algorithm and track indices:
+tempStart → potential start
+start/end → final indices of max subarray.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 class KadaneIndices {
 
     static void maxSubarray(int arr[]){
@@ -37,4 +56,5 @@ class KadaneIndices {
 
         maxSubarray(arr);
     }
+
 }
