@@ -1,3 +1,23 @@
+/*
+Problem Statement:
+Find maximum subarray sum when all numbers are negative.
+
+Example:
+Input: [-5,-2,-8,-1]
+Output: -1
+
+Explanation:
+The largest value among negative numbers is the answer.
+
+Approach:
+Kadane's algorithm works by comparing:
+current element
+or extending previous sum.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+     
 class KadaneExample3 {
 
     static void maxSum(int arr[]){
@@ -21,4 +41,5 @@ class KadaneExample3 {
 
         maxSum(arr);
     }
+
 }
