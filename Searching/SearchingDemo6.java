@@ -1,3 +1,22 @@
+/*
+Problem Statement:
+Find a peak element in an array.
+A peak element is greater than its neighbors.
+
+Example:
+Input: [1,2,3,1]
+Output: 3
+
+Approach:
+Use Binary Search.
+If middle element is greater than next element,
+the peak lies in the left half.
+Otherwise search right half.
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SearchingDemo6 {
 
