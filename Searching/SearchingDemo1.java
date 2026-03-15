@@ -1,3 +1,25 @@
+/*
+Problem Statement:
+Given an array of integers and a target element,
+find the index of the target element using Linear Search.
+
+Example:
+Input:  arr = [10, 20, 30, 40, 50]
+Target = 30
+
+Output:
+Element found at index 2
+
+Approach:
+Traverse the array from beginning to end.
+Check each element with the target.
+If element matches target → return index.
+If no element matches → return -1.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 
 class SearchingDemo1 {
