@@ -1,3 +1,29 @@
+/*
+Problem Statement:
+Given a sorted array of integers and a target value,
+find the index of the target element using Binary Search.
+
+Example:
+Input:  arr = [10,20,30,40,50]
+Target = 40
+
+Output:
+Element found at index 3
+
+Approach:
+Binary Search works only on sorted arrays.
+
+Steps:
+1. Set left = 0 and right = n-1
+2. Find mid = (left + right) / 2
+3. If arr[mid] == target → return mid
+4. If arr[mid] < target → search right half
+5. If arr[mid] > target → search left half
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SearchingDemo2 {
     static int binary(int arr[] , int start, int end,int target){
