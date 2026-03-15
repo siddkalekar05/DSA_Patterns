@@ -1,3 +1,23 @@
+/*
+Problem Statement:
+Find the last occurrence of a target element in a sorted array.
+
+Example:
+Input:  [1,2,2,2,3,4]
+Target = 2
+
+Output:
+Index = 3
+
+Approach:
+Use Binary Search.
+When target found, move to right half
+to find the last occurrence.
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
+
 import java.util.*;
 class SearchInsert {
 
