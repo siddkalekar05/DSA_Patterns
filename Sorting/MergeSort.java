@@ -1,6 +1,24 @@
-class MergeSort {
+/*
+Problem Statement:
+Sort an array using Merge Sort.
 
-    
+Example:
+Input : [5,2,4,7,1,3]
+Output: [1,2,3,4,5,7]
+
+Approach:
+Merge Sort uses Divide and Conquer.
+
+Steps:
+1. Divide the array into two halves.
+2. Recursively sort each half.
+3. Merge the sorted halves.
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+*/
+
+class MergeSort {
     static void merge(int arr[], int left, int mid, int right) {
 
         int n1 = mid - left + 1;
