@@ -1,3 +1,26 @@
+/*
+Problem Statement:
+Sort an array using Quick Sort.
+
+Example:
+Input : [8,3,1,7,0,10,2]
+Output: [0,1,2,3,7,8,10]
+
+Approach:
+Quick Sort selects a pivot element.
+
+Steps:
+1. Choose pivot (last element).
+2. Place pivot in correct position.
+3. Recursively sort left and right subarrays.
+
+Time Complexity:
+Average: O(n log n)
+Worst : O(n²)
+
+Space Complexity: O(log n)
+*/
+
 class QuickSort {
     static int partition(int arr[], int low, int high) {
 
