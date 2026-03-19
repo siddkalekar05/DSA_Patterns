@@ -6,7 +6,7 @@
          * - Access top element using peek()
          * - Remove top element using pop()
          * - Print updated stack
-         *
+         
          * Approach:
          * 1. Create a Stack of Integer type.
          * 2. Push elements (10, 20, 30, 40).
@@ -14,7 +14,7 @@
          * 4. Use peek() to view the top element without removing it.
          * 5. Use pop() to remove and return the top element.
          * 6. Traverse again to see updated stack.
-         *
+         
          * Time Complexity (TC):
          * - push(): O(1) each
          * - peek(): O(1)
