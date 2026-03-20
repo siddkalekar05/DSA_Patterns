@@ -8,7 +8,6 @@ class StackPush {
         top++;          
         arr[top] = x;   
     }
-
     public static void main(String[] args){
 
         StackPush s = new StackPush();
@@ -16,7 +15,6 @@ class StackPush {
         s.push(10);
         s.push(20);
         s.push(30);
-
         System.out.println("Top: " + s.arr[s.top]);
     }
 }
