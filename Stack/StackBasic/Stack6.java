@@ -1,3 +1,14 @@
+/*
+Problem Statement:
+Perform all stack operations together.
+
+Approach:
+Combine push, pop and peek.
+
+Time Complexity: O(1)
+Space Complexity: O(n)
+*/
+
 class StackAllOps {
 
     int arr[] = new int[5];
