@@ -1,3 +1,15 @@
+/*
+Problem Statement:
+Insert elements into stack.
+
+Approach:
+Use array and top variable.
+Increase top and insert element.
+
+Time Complexity: O(1)
+Space Complexity: O(n)
+*/
+
 class StackPush {
 
     int arr[] = new int[5];
