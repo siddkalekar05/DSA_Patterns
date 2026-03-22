@@ -1,3 +1,11 @@
+/*
+Problem:
+Given a string, count the number of characters using a Stack.
+
+Note:
+Instead of using str.length(), we simulate counting using stack operations.
+*/
+
 import java.util.*;
 
 class CountUsingStack {
