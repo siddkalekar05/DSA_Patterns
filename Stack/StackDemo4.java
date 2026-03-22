@@ -1,3 +1,18 @@
+/*
+Problem:
+Implement a Stack using Linked List with the following operations:
+
+1. push()  → Insert element at top
+2. pop()   → Remove element from top
+3. peek()  → Get top element
+4. empty() → Check if stack is empty
+5. print() → Display stack elements
+
+Constraint:
+- Stack size is dynamic (no fixed size like array)
+- Handle underflow condition
+*/
+
 import java.util.*;
 
 class Node {
