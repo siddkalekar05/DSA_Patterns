@@ -1,3 +1,12 @@
+/*
+Problem:
+Given an integer, reverse its digits using a Stack.
+
+Example:
+Input: 456
+Output: 654
+*/
+
 import java.util.*;
 
 class ReverseNumber3 {
