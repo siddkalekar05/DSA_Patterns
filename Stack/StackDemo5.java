@@ -1,3 +1,14 @@
+/*
+Problem:
+Given a string, reverse it using a Stack and check whether
+the string is a palindrome.
+
+Operations:
+1. Push all characters into stack
+2. Pop to form reversed string
+3. Compare original and reversed string
+*/
+
 import java.util.*;
 class StackDemo5 {
     String reverse(String str){
