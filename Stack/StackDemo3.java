@@ -1,3 +1,17 @@
+/*
+Problem:
+Implement a Stack using an array with the following operations:
+1. push()  → Insert element
+2. pop()   → Remove element
+3. peek()  → View top element
+4. empty() → Check if stack is empty
+5. print() → Display elements
+
+Constraints:
+- Stack size is fixed
+- Handle overflow and underflow conditions
+*/
+
 import java.util.*;
 class Stack1{
     int maxsize;
