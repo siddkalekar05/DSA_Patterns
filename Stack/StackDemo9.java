@@ -1,3 +1,20 @@
+/*
+Problem Statement:
+Check if parentheses are valid.
+
+Example:
+Input: "{[()]}"
+Output: Valid
+
+Approach:
+Push opening brackets.
+For closing brackets:
+match with top of stack.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class StackDemo9 {
