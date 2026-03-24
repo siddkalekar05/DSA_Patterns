@@ -1,3 +1,22 @@
+/*
+Problem Statement:
+Implement two stacks using a single array.
+One stack grows from left → right
+Other grows from right → left
+
+Approach:
+Use two pointers:
+top1 → starts from -1
+top2 → starts from size
+
+Insert:
+Stack1 → left side
+Stack2 → right side
+
+Time Complexity: O(1)
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class StackDemo8 {
