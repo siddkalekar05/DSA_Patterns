@@ -1,3 +1,18 @@
+/*
+Problem Statement:
+Perform all queue operations:
+enqueue, dequeue, and peek.
+
+Approach (Steps):
+1. Insert elements using enqueue
+2. Print front using peek
+3. Remove element using dequeue
+4. Again check front
+
+Time Complexity: O(1) for each operation
+Space Complexity: O(n)
+*/
+
 class QueueEmptyCheck {
 
     int front = 0;
