@@ -1,3 +1,19 @@
+/*
+Problem Statement:
+Find the front element of queue.
+
+Example:
+Queue: [10,20,30]
+Output: 10
+
+Approach (Steps):
+1. Access arr[front]
+2. Print the value
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/
+
 class QueueAllOps {
 
     int arr[] = new int[5];
