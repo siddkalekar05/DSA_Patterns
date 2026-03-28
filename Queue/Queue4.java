@@ -1,3 +1,19 @@
+/*
+Problem Statement:
+Implement stack using queue.
+
+Approach:
+Use one queue:
+Push → rotate queue
+Pop → remove front
+
+Time Complexity:
+Push → O(n)
+Pop → O(1)
+
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class PalindromeQueue {
