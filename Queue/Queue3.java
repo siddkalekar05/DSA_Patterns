@@ -1,3 +1,19 @@
+/*
+Problem Statement:
+Implement queue using two stacks.
+
+Approach:
+Use two stacks:
+push → insert into stack1
+pop → transfer elements to stack2
+
+Time Complexity:
+Push → O(1)
+Pop → O(n)
+
+Space Complexity: O(n)
+*/
+
 import java.util.*;
 
 class StackUsingQueue {
