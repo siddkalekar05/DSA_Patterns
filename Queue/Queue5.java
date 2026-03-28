@@ -1,3 +1,17 @@
+/*
+Problem Statement:
+Check if string is palindrome using queue.
+
+Approach:
+Use queue and stack:
+Queue → normal order
+Stack → reverse order
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+
 import java.util.*;
 
 class InterleaveQueue {
