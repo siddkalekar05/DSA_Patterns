@@ -1,3 +1,7 @@
+/*
+Print all elements of linked list
+*/
+
 class TraverseList {
 
     static class Node {
