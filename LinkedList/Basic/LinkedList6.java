@@ -1,3 +1,7 @@
+/*
+Count number of nodes in linked list
+*/
+
 class CountNodes {
 
     static class Node {
