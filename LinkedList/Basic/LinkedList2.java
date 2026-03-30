@@ -1,3 +1,7 @@
+/*
+Create linked list manually: 10 → 20 → 30
+*/
+
 class CreateList {
 
     static class Node {
