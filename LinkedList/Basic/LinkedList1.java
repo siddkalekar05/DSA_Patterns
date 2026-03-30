@@ -1,3 +1,14 @@
+/*
+Problem Statement:
+Create a single node in linked list.
+
+Approach:
+Define Node class with data and next.
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/
+
 class NodeExample {
 
     static class Node {
