@@ -1,3 +1,7 @@
+/*
+Insert element at end of linked list
+*/
+
 class InsertEnd {
 
     static class Node {
