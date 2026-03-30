@@ -1,3 +1,7 @@
+/*
+Insert element at beginning
+*/
+
 class InsertBegin {
 
     static class Node {
